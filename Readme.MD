@@ -21,6 +21,7 @@ Run `TerminalServerApplication.java` to start the `terminal-server`. API documen
 Run `TerminalClientApplication.java` to start the `terminal-client`. API documentation will be available at 
 `http://localhost:8100/swagger-ui.html`<br>
 
-2. Run tests with `mvn clean verify` in each sub-project to test each service independently.
-3. Standalone jar for each service can be with `mvn clean package`. 
+2. Run tests with `mvn clean verify` in each sub-project to run Unit and Integration tests against each microservice 
+independently.
+3. Standalone jar for each service can be generated with `mvn clean package`. 
 
